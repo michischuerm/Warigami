@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 92889d6c2c3214186b25a94847d6c4e5
+timeCreated: 1507486533
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Origami
+  fontNames:
+  - Origami
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

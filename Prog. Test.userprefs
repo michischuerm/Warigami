@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Skripts/XBoxPlayer2.cs">
+    <Files>
+      <File FileName="Assets/Skripts/XBoxPlayer1.cs" Line="31" Column="23" />
+      <File FileName="Assets/Skripts/XBoxPlayer2.cs" Line="22" Column="17" />
+      <File FileName="Assets/Skripts/destructable.cs" Line="13" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

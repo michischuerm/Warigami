@@ -1,0 +1,115 @@
+/Users/mammoliti_c/Desktop/3. Semester/03. Module/06. Game Design (N)/03. 29.09.17/Prog. Test/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/mammoliti_c/Desktop/3. Semester/03. Module/06. Game Design (N)/03. 29.09.17/Prog. Test/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/mammoliti_c/Desktop/3. Semester/03. Module/06. Game Design (N)/03. 29.09.17/Prog. Test/obj/Debug/Assembly-CSharp.dll
+/Users/mammoliti_c/Desktop/3. Semester/03. Module/06. Game Design (N)/03. 29.09.17/Prog. Test/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/mammoliti_c/Desktop/3. Semester/03. Module/06. Game Design (N)/03. 29.09.17/Prog. Test/Temp/bin/Debug/UnityEngine.dll
+/Users/mammoliti_c/Desktop/3. Semester/03. Module/06. Game Design (N)/03. 29.09.17/Prog. Test/Temp/bin/Debug/UnityEditor.dll
+/Users/mammoliti_c/Desktop/3. Semester/03. Module/06. Game Design (N)/03. 29.09.17/Prog. Test/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/mammoliti_c/Desktop/3. Semester/03. Module/06. Game Design (N)/03. 29.09.17/Prog. Test/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/mammoliti_c/Desktop/3. Semester/03. Module/06. Game Design (N)/03. 29.09.17/Prog. Test/Temp/bin/Debug/UnityEngine.PlaymodeTestsRunner.dll
+/Users/mammoliti_c/Desktop/3. Semester/03. Module/06. Game Design (N)/03. 29.09.17/Prog. Test/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/mammoliti_c/Desktop/3. Semester/03. Module/06. Game Design (N)/03. 29.09.17/Prog. Test/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/mammoliti_c/Desktop/3. Semester/03. Module/06. Game Design (N)/03. 29.09.17/Prog. Test/Temp/bin/Debug/UnityEngine.VR.dll
+/Users/mammoliti_c/Desktop/3. Semester/03. Module/06. Game Design (N)/03. 29.09.17/Prog. Test/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/mammoliti_c/Desktop/3. Semester/03. Module/06. Game Design (N)/03. 29.09.17/Prog. Test/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/mammoliti_c/Desktop/3. Semester/03. Module/06. Game Design (N)/03. 29.09.17/Prog. Test/Temp/bin/Debug/Mono.Cecil.dll
+/Users/mammoliti_c/Desktop/3. Semester/03. Module/06. Game Design (N)/03. 29.09.17/Prog. Test/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/mammoliti_c/Desktop/3. Semester/03. Module/06. Game Design (N)/03. 29.09.17/Prog. Test/Temp/bin/Debug/Unity.DataContract.dll
+/Users/mammoliti_c/Desktop/3. Semester/03. Module/06. Game Design (N)/03. 29.09.17/Prog. Test/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/mammoliti_c/Desktop/3. Semester/03. Module/06. Game Design (N)/03. 29.09.17/Prog. Test/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/mammoliti_c/Desktop/3. Semester/03. Module/06. Game Design (N)/03. 29.09.17/Prog. Test/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/mammoliti_c/Desktop/3. Semester/03. Module/06. Game Design (N)/03. 29.09.17/Prog. Test/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/mammoliti_c/Desktop/3. Semester/03. Module/06. Game Design (N)/03. 29.09.17/Prog. Test/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/mammoliti_c/Desktop/3. Semester/03. Module/06. Game Design (N)/03. 29.09.17/Prog. Test/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/Shared/Unity/Prog. Test 2/obj/Debug/Assembly-CSharp.dll
+/Users/Shared/Unity/Prog. Test 2/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/Shared/Unity/Prog. Test 2/Temp/bin/Debug/UnityEngine.dll
+/Users/Shared/Unity/Prog. Test 2/Temp/bin/Debug/UnityEditor.dll
+/Users/Shared/Unity/Prog. Test 2/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/Shared/Unity/Prog. Test 2/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/Shared/Unity/Prog. Test 2/Temp/bin/Debug/UnityEngine.PlaymodeTestsRunner.dll
+/Users/Shared/Unity/Prog. Test 2/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/Shared/Unity/Prog. Test 2/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/Shared/Unity/Prog. Test 2/Temp/bin/Debug/UnityEngine.VR.dll
+/Users/Shared/Unity/Prog. Test 2/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/Shared/Unity/Prog. Test 2/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/Shared/Unity/Prog. Test 2/Temp/bin/Debug/Mono.Cecil.dll
+/Users/Shared/Unity/Prog. Test 2/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/Shared/Unity/Prog. Test 2/Temp/bin/Debug/Unity.DataContract.dll
+/Users/Shared/Unity/Prog. Test 2/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/Shared/Unity/Prog. Test 2/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/Shared/Unity/Prog. Test 2/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/Shared/Unity/Prog. Test 2/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/Shared/Unity/Prog. Test 2/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/Shared/Unity/Prog. Test 2/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/Shared/Unity/Prog. Test 2/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/Shared/Unity/Prog. Test 2/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/mammoliti_c/Desktop/WarigamiNeu/Warigami/Warigami/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/mammoliti_c/Desktop/WarigamiNeu/Warigami/Warigami/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/mammoliti_c/Desktop/WarigamiNeu/Warigami/Warigami/obj/Debug/Assembly-CSharp.dll
+/Users/mammoliti_c/Desktop/WarigamiNeu/Warigami/Warigami/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/mammoliti_c/Desktop/WarigamiNeu/Warigami/Warigami/Temp/bin/Debug/UnityEngine.dll
+/Users/mammoliti_c/Desktop/WarigamiNeu/Warigami/Warigami/Temp/bin/Debug/UnityEditor.dll
+/Users/mammoliti_c/Desktop/WarigamiNeu/Warigami/Warigami/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/mammoliti_c/Desktop/WarigamiNeu/Warigami/Warigami/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/mammoliti_c/Desktop/WarigamiNeu/Warigami/Warigami/Temp/bin/Debug/UnityEngine.PlaymodeTestsRunner.dll
+/Users/mammoliti_c/Desktop/WarigamiNeu/Warigami/Warigami/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/mammoliti_c/Desktop/WarigamiNeu/Warigami/Warigami/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/mammoliti_c/Desktop/WarigamiNeu/Warigami/Warigami/Temp/bin/Debug/UnityEngine.VR.dll
+/Users/mammoliti_c/Desktop/WarigamiNeu/Warigami/Warigami/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/mammoliti_c/Desktop/WarigamiNeu/Warigami/Warigami/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/mammoliti_c/Desktop/WarigamiNeu/Warigami/Warigami/Temp/bin/Debug/Mono.Cecil.dll
+/Users/mammoliti_c/Desktop/WarigamiNeu/Warigami/Warigami/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/mammoliti_c/Desktop/WarigamiNeu/Warigami/Warigami/Temp/bin/Debug/Unity.DataContract.dll
+/Users/mammoliti_c/Desktop/WarigamiNeu/Warigami/Warigami/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/mammoliti_c/Desktop/WarigamiNeu/Warigami/Warigami/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/mammoliti_c/Desktop/WarigamiNeu/Warigami/Warigami/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/mammoliti_c/Desktop/WarigamiNeu/Warigami/Warigami/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/mammoliti_c/Desktop/WarigamiNeu/Warigami/Warigami/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/mammoliti_c/Desktop/WarigamiNeu/Warigami/Warigami/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/Shared/Unity/WarigamiNeu2/Warigami/Warigami/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/Shared/Unity/WarigamiNeu2/Warigami/Warigami/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/Shared/Unity/WarigamiNeu2/Warigami/Warigami/obj/Debug/Assembly-CSharp.dll
+/Users/Shared/Unity/WarigamiNeu2/Warigami/Warigami/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/Shared/Unity/WarigamiNeu2/Warigami/Warigami/Temp/bin/Debug/UnityEngine.dll
+/Users/Shared/Unity/WarigamiNeu2/Warigami/Warigami/Temp/bin/Debug/UnityEditor.dll
+/Users/Shared/Unity/WarigamiNeu2/Warigami/Warigami/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/Shared/Unity/WarigamiNeu2/Warigami/Warigami/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/Shared/Unity/WarigamiNeu2/Warigami/Warigami/Temp/bin/Debug/UnityEngine.PlaymodeTestsRunner.dll
+/Users/Shared/Unity/WarigamiNeu2/Warigami/Warigami/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/Shared/Unity/WarigamiNeu2/Warigami/Warigami/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/Shared/Unity/WarigamiNeu2/Warigami/Warigami/Temp/bin/Debug/UnityEngine.VR.dll
+/Users/Shared/Unity/WarigamiNeu2/Warigami/Warigami/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/Shared/Unity/WarigamiNeu2/Warigami/Warigami/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/Shared/Unity/WarigamiNeu2/Warigami/Warigami/Temp/bin/Debug/Mono.Cecil.dll
+/Users/Shared/Unity/WarigamiNeu2/Warigami/Warigami/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/Shared/Unity/WarigamiNeu2/Warigami/Warigami/Temp/bin/Debug/Unity.DataContract.dll
+/Users/Shared/Unity/WarigamiNeu2/Warigami/Warigami/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/Shared/Unity/WarigamiNeu2/Warigami/Warigami/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/Shared/Unity/WarigamiNeu2/Warigami/Warigami/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/Shared/Unity/WarigamiNeu2/Warigami/Warigami/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/Shared/Unity/WarigamiNeu2/Warigami/Warigami/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/Shared/Unity/WarigamiNeu2/Warigami/Warigami/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/mammoliti_c/Desktop/Warigamiwaterworld/Warigami/obj/Debug/Assembly-CSharp.dll
+/Users/mammoliti_c/Desktop/Warigamiwaterworld/Warigami/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/mammoliti_c/Desktop/Warigamiwaterworld/Warigami/Temp/bin/Debug/UnityEngine.dll
+/Users/mammoliti_c/Desktop/Warigamiwaterworld/Warigami/Temp/bin/Debug/UnityEditor.dll
+/Users/mammoliti_c/Desktop/Warigamiwaterworld/Warigami/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/mammoliti_c/Desktop/Warigamiwaterworld/Warigami/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/mammoliti_c/Desktop/Warigamiwaterworld/Warigami/Temp/bin/Debug/UnityEngine.PlaymodeTestsRunner.dll
+/Users/mammoliti_c/Desktop/Warigamiwaterworld/Warigami/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/mammoliti_c/Desktop/Warigamiwaterworld/Warigami/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/mammoliti_c/Desktop/Warigamiwaterworld/Warigami/Temp/bin/Debug/UnityEngine.VR.dll
+/Users/mammoliti_c/Desktop/Warigamiwaterworld/Warigami/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/mammoliti_c/Desktop/Warigamiwaterworld/Warigami/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/mammoliti_c/Desktop/Warigamiwaterworld/Warigami/Temp/bin/Debug/Mono.Cecil.dll
+/Users/mammoliti_c/Desktop/Warigamiwaterworld/Warigami/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/mammoliti_c/Desktop/Warigamiwaterworld/Warigami/Temp/bin/Debug/Unity.DataContract.dll
+/Users/mammoliti_c/Desktop/Warigamiwaterworld/Warigami/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/mammoliti_c/Desktop/Warigamiwaterworld/Warigami/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/mammoliti_c/Desktop/Warigamiwaterworld/Warigami/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/mammoliti_c/Desktop/Warigamiwaterworld/Warigami/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/mammoliti_c/Desktop/Warigamiwaterworld/Warigami/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/mammoliti_c/Desktop/Warigamiwaterworld/Warigami/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/mammoliti_c/Desktop/Warigamiwaterworld/Warigami/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/mammoliti_c/Desktop/Warigamiwaterworld/Warigami/Temp/bin/Debug/Assembly-CSharp.dll

@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: dccef2d8f80914d3089456bfc1b02e74
+timeCreated: 1507478247
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: CINEMA_4D_Editor
+    100002: Joint_1
+    100004: Joint_1_2
+    100006: Joint_1_3
+    100008: Joint_1_4
+    100010: Joint_1_5
+    100012: Joint_1_6
+    100014: Joint_1_7
+    100016: Joint_1_8
+    100018: Joint_1_9
+    100020: Joint_2
+    100022: Joint_2_2
+    100024: Joint_2_3
+    100026: Joint_2_4
+    100028: Joint_2_5
+    100030: Joint_2_6
+    100032: Joint_2_7
+    100034: Joint_2_8
+    100036: Joint_2_9
+    100038: Joint_3
+    100040: Joint_3_2
+    100042: Joint_3_3
+    100044: Joint_3_4
+    100046: Joint_3_5
+    100048: Joint_3_6
+    100050: Joint_3_7
+    100052: Joint_3_8
+    100054: Joint_3_9
+    100056: Klon
+    100058: Root
+    100060: Root_2
+    100062: Root_3
+    100064: Root_4
+    100066: Root_5
+    100068: Root_6
+    100070: Root_7
+    100072: Root_8
+    100074: Root_9
+    100076: //RootNode
+    100078: "W\xFCrfel_0"
+    100080: "W\xFCrfel_1"
+    100082: "W\xFCrfel_2"
+    100084: "W\xFCrfel_3"
+    100086: "W\xFCrfel_4"
+    100088: "W\xFCrfel_5"
+    100090: "W\xFCrfel_6"
+    100092: "W\xFCrfel_7"
+    100094: "W\xFCrfel_8"
+    400000: CINEMA_4D_Editor
+    400002: Joint_1
+    400004: Joint_1_2
+    400006: Joint_1_3
+    400008: Joint_1_4
+    400010: Joint_1_5
+    400012: Joint_1_6
+    400014: Joint_1_7
+    400016: Joint_1_8
+    400018: Joint_1_9
+    400020: Joint_2
+    400022: Joint_2_2
+    400024: Joint_2_3
+    400026: Joint_2_4
+    400028: Joint_2_5
+    400030: Joint_2_6
+    400032: Joint_2_7
+    400034: Joint_2_8
+    400036: Joint_2_9
+    400038: Joint_3
+    400040: Joint_3_2
+    400042: Joint_3_3
+    400044: Joint_3_4
+    400046: Joint_3_5
+    400048: Joint_3_6
+    400050: Joint_3_7
+    400052: Joint_3_8
+    400054: Joint_3_9
+    400056: Klon
+    400058: Root
+    400060: Root_2
+    400062: Root_3
+    400064: Root_4
+    400066: Root_5
+    400068: Root_6
+    400070: Root_7
+    400072: Root_8
+    400074: Root_9
+    400076: //RootNode
+    400078: "W\xFCrfel_0"
+    400080: "W\xFCrfel_1"
+    400082: "W\xFCrfel_2"
+    400084: "W\xFCrfel_3"
+    400086: "W\xFCrfel_4"
+    400088: "W\xFCrfel_5"
+    400090: "W\xFCrfel_6"
+    400092: "W\xFCrfel_7"
+    400094: "W\xFCrfel_8"
+    4300000: "W\xFCrfel_0"
+    4300002: "W\xFCrfel_1"
+    4300004: "W\xFCrfel_2"
+    4300006: "W\xFCrfel_3"
+    4300008: "W\xFCrfel_4"
+    4300010: "W\xFCrfel_5"
+    4300012: "W\xFCrfel_6"
+    4300014: "W\xFCrfel_7"
+    4300016: "W\xFCrfel_8"
+    9500000: //RootNode
+    13700000: "W\xFCrfel_0"
+    13700002: "W\xFCrfel_1"
+    13700004: "W\xFCrfel_2"
+    13700006: "W\xFCrfel_3"
+    13700008: "W\xFCrfel_4"
+    13700010: "W\xFCrfel_5"
+    13700012: "W\xFCrfel_6"
+    13700014: "W\xFCrfel_7"
+    13700016: "W\xFCrfel_8"
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

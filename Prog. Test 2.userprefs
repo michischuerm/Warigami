@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Skripts/destructable.cs">
+    <Files>
+      <File FileName="Assets/_Completed-Assets/Scripts/Done_EvasiveManeuver.cs" Line="6" Column="18" />
+      <File FileName="Assets/shooting.cs" Line="14" Column="18" />
+      <File FileName="Assets/Skripts/destructable.cs" Line="12" Column="16" />
+      <File FileName="Assets/_Completed-Assets/Scripts/shots1337_2.cs" Line="25" Column="29" />
+      <File FileName="Assets/Prefab/Mover.cs" Line="1" Column="1" />
+      <File FileName="Assets/Skripts/neweee.cs" Line="22" Column="46" />
+      <File FileName="Assets/_Completed-Assets/Scripts/shots1337.cs" Line="26" Column="29" />
+      <File FileName="Assets/Skripts/test.cs" Line="32" Column="42" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
