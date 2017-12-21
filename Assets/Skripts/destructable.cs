@@ -9,7 +9,9 @@ public class destructable : MonoBehaviour {
 
 	void OnCollisionEnter(Collision collision)
 	{
+		
 		if(collision.rigidbody.mass  > 3){ 
+			
 		Instantiate (destroyedVersion, transform.position, transform.rotation);
 		Destroy (gameObject);
 	}
