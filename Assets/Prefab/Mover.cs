@@ -7,13 +7,24 @@ public class Mover : MonoBehaviour
 	public float lifetime;
 	public float upScale;
 
+    public AudioClip[] shootSounds;
+    private AudioSource audioSource;
+
 	void Start ()
 	{
 		Rigidbody rb = (Rigidbody)GetComponent(typeof(Rigidbody));
 		rb.velocity =  transform.forward * speed + transform.up * upScale;
+
+        audioSource = gameObject.GetComponent<AudioSource>();
+        playRandomSoundOnStart();
 	}
 
-	void  Awake ()
+    void playRandomSoundOnStart() {
+        audioSource.clip = shootSounds[Random.Range(0, shootSounds.Length)];
+        audioSource.Play();
+    }
+
+    void  Awake ()
 	{
 		Destroy(gameObject, lifetime);
 	}
