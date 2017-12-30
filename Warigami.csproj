@@ -92,6 +92,7 @@
     <Compile Include="Assets\Round123Go\TextScript.cs" />
     <Compile Include="Assets\Skripts\BoundaryDestroy.cs" />
     <Compile Include="Assets\Skripts\PickupFall.cs" />
+    <Compile Include="Assets\Skripts\RandomAmbientMusic.cs" />
     <Compile Include="Assets\Skripts\UI.cs" />
     <Compile Include="Assets\Skripts\XBoxPlayer1.cs" />
     <Compile Include="Assets\Skripts\XBoxPlayer2.cs" />
