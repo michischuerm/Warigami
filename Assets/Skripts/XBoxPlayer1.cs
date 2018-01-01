@@ -45,6 +45,7 @@ public class XBoxPlayer1 : MonoBehaviour {
     public float fireRate;
 
 
+
     // Use this for initialization
     void Start() {
 
@@ -58,17 +59,37 @@ public class XBoxPlayer1 : MonoBehaviour {
         //Shoot();
         XboxInput();
 
-        
+
     }
 
     void XboxInput() {
+        //LeftStick     Moving
         transform.position += new Vector3(Scale(xbox_leftStickHorizontal) * Time.deltaTime, 0, 0);
         transform.position -= new Vector3(0, 0, Scale(xbox_leftStickVertical) * Time.deltaTime);
+
+
+        if (Input.GetKey(KeyCode.Q)) {
+            transform.Rotate(Vector3.up, -200 * Time.deltaTime, Space.World);
+        }
+        if (Input.GetKey(KeyCode.E)) {
+            transform.Rotate(Vector3.up, 200 * Time.deltaTime, Space.World);
+        }
+
+        transform.Rotate(Vector3.up, -xbox_rightTriggerSharedAxis * 200 * Time.deltaTime, Space.World);
+
+
+
+        //RightStick Turning
+        //transform.Rotate(Vector3.up, xbox_rightStickHorizontal * 50 * Time.deltaTime, Space.World);
+        //Right And Left Triffer turning
     }
+
+
 
     void Shoot() {
 
         if (xbox_a && Time.time > nextFire) {
+            Debug.Log("Hi");
             nextFire = Time.time + fireRate;
             Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
             GetComponent<AudioSource>().Play();
@@ -128,7 +149,8 @@ public class XBoxPlayer1 : MonoBehaviour {
         if (xbox_leftStick) { Debug.Log("Pressed Left Stick1"); }
 
         if (xbox_leftStickHorizontal != 0f) {
-            Debug.Log("Pressed Left Stick Horizontal1: " + xbox_leftStickHorizontal);        }
+            Debug.Log("Pressed Left Stick Horizontal1: " + xbox_leftStickHorizontal);
+        }
         if (xbox_leftStickVertical != 0f) {
             Debug.Log("Pressed Left Stick Vertical1: " + xbox_leftStickVertical);
         }
@@ -163,6 +185,6 @@ public class XBoxPlayer1 : MonoBehaviour {
         }
 
 
-        
+
     }
 }

@@ -65,7 +65,20 @@ public class XBoxPlayer2 : MonoBehaviour {
 	void XboxInput() {
 		transform.position += new Vector3(Scale(xbox_leftStickHorizontal) * Time.deltaTime, 0, 0);
 		transform.position -= new Vector3(0, 0, Scale(xbox_leftStickVertical) * Time.deltaTime);
-	}
+
+        if (Input.GetKey(KeyCode.N)) {
+            transform.Rotate(Vector3.up, -200 * Time.deltaTime, Space.World);
+        }
+        if (Input.GetKey(KeyCode.M)) {
+            transform.Rotate(Vector3.up, 200 * Time.deltaTime, Space.World);
+        }
+
+        transform.Rotate(Vector3.up, -xbox_rightTriggerSharedAxis * 200 * Time.deltaTime, Space.World);
+
+        //transform.RotateAround(new Vector3(637, 215.51f, -1216.329f), Vector3.up, -xbox_rightTriggerSharedAxis * 200* Time.deltaTime);
+
+
+    }
 
 
     void Shoot() {
