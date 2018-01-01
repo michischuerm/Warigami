@@ -55,7 +55,7 @@ public class XBoxPlayer1 : MonoBehaviour {
 
         ControllerCheck();
         //DebugKeys();
-        Shoot();
+        //Shoot();
         XboxInput();
 
         
