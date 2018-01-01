@@ -45,10 +45,25 @@ public class XBoxPlayer2 : MonoBehaviour {
     public float fireRate;
 
 
+    Vector3 pivotTransVector;
+    private GameObject tankPivot;
+
 
     // Use this for initialization
     void Start() {
+        tankPivot = GameObject.Find("SnakeTestPivot");
+        pivotTransVector.x = tankPivot.transform.position.x;
+        pivotTransVector.y = tankPivot.transform.position.y;
+        pivotTransVector.z = tankPivot.transform.position.z;
 
+        /*
+        //Dirty Pivot  Because Pivot is not where the object is...
+        pivotTransVector.x -= 10;
+        pivotTransVector.y -= 3;
+        pivotTransVector.z += 6;
+        */
+
+    
     }
 
     // Update is called once per frame
@@ -73,11 +88,11 @@ public class XBoxPlayer2 : MonoBehaviour {
             transform.Rotate(Vector3.up, 200 * Time.deltaTime, Space.World);
         }
 
-        transform.Rotate(Vector3.up, -xbox_rightTriggerSharedAxis * 200 * Time.deltaTime, Space.World);
+        //transform.Rotate(Vector3.up, -xbox_rightTriggerSharedAxis * 200 * Time.deltaTime, Space.World);
 
         //transform.RotateAround(new Vector3(637, 215.51f, -1216.329f), Vector3.up, -xbox_rightTriggerSharedAxis * 200* Time.deltaTime);
 
-
+        transform.RotateAround(pivotTransVector, Vector3.up, -xbox_rightTriggerSharedAxis * 200 * Time.deltaTime);
     }
 
 

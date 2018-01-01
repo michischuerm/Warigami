@@ -45,9 +45,18 @@ public class XBoxPlayer1 : MonoBehaviour {
     public float fireRate;
 
 
+    //Vector3 pivotTransVector;
+    //private GameObject tankPivot;
 
     // Use this for initialization
     void Start() {
+        /*
+        tankPivot = GameObject.Find("Pinguin mit Waffe (rotate)");
+        pivotTransVector.x = tankPivot.transform.position.x;
+        pivotTransVector.y = tankPivot.transform.position.y;
+        pivotTransVector.z = tankPivot.transform.position.z;
+        */
+
 
     }
 
@@ -79,9 +88,11 @@ public class XBoxPlayer1 : MonoBehaviour {
 
 
 
-        //RightStick Turning
-        //transform.Rotate(Vector3.up, xbox_rightStickHorizontal * 50 * Time.deltaTime, Space.World);
-        //Right And Left Triffer turning
+        //transform.RotateAround(new Vector3(637, 215.51f, -1216.329f), Vector3.up, -xbox_rightTriggerSharedAxis * 200 * Time.deltaTime);
+
+
+        //this also works.....
+        //transform.RotateAround(pivotTransVector, Vector3.up, -xbox_rightTriggerSharedAxis * 200 * Time.deltaTime);
     }
 
 
