@@ -45,17 +45,11 @@ public class XBoxPlayer1 : MonoBehaviour {
     public float fireRate;
 
 
-    //Vector3 pivotTransVector;
-    //private GameObject tankPivot;
+    private int turnspeed = 200;
 
     // Use this for initialization
     void Start() {
-        /*
-        tankPivot = GameObject.Find("Pinguin mit Waffe (rotate)");
-        pivotTransVector.x = tankPivot.transform.position.x;
-        pivotTransVector.y = tankPivot.transform.position.y;
-        pivotTransVector.z = tankPivot.transform.position.z;
-        */
+
 
 
     }
@@ -78,13 +72,13 @@ public class XBoxPlayer1 : MonoBehaviour {
 
 
         if (Input.GetKey(KeyCode.Q)) {
-            transform.Rotate(Vector3.up, -200 * Time.deltaTime, Space.World);
+            transform.Rotate(Vector3.up, -turnspeed * Time.deltaTime, Space.World);
         }
         if (Input.GetKey(KeyCode.E)) {
-            transform.Rotate(Vector3.up, 200 * Time.deltaTime, Space.World);
+            transform.Rotate(Vector3.up, turnspeed * Time.deltaTime, Space.World);
         }
 
-        transform.Rotate(Vector3.up, -xbox_rightTriggerSharedAxis * 200 * Time.deltaTime, Space.World);
+        transform.Rotate(Vector3.up, -xbox_rightTriggerSharedAxis * turnspeed * Time.deltaTime, Space.World);
 
 
 

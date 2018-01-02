@@ -44,7 +44,7 @@ public class XBoxPlayer2 : MonoBehaviour {
     public Transform shotSpawn;
     public float fireRate;
 
-    
+    private int turnspeed = 200;
 
 
     // Use this for initialization
@@ -68,15 +68,15 @@ public class XBoxPlayer2 : MonoBehaviour {
 		transform.position -= new Vector3(0, 0, Scale(xbox_leftStickVertical) * Time.deltaTime);
 
         if (Input.GetKey(KeyCode.N)) {
-            transform.Rotate(Vector3.up, -200 * Time.deltaTime, Space.World);
+            transform.Rotate(Vector3.up, -turnspeed * Time.deltaTime, Space.World);
         }
         if (Input.GetKey(KeyCode.M)) {
-            transform.Rotate(Vector3.up, 200 * Time.deltaTime, Space.World);
+            transform.Rotate(Vector3.up, turnspeed * Time.deltaTime, Space.World);
         }
 
 
 
-        transform.Rotate(Vector3.up, -xbox_rightTriggerSharedAxis * 200 * Time.deltaTime, Space.World);
+        transform.Rotate(Vector3.up, -xbox_rightTriggerSharedAxis * turnspeed * Time.deltaTime, Space.World);
 
     }
 
