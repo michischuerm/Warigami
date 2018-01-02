@@ -101,6 +101,7 @@
     <Compile Include="Assets\Skripts\icefloat2.cs" />
     <Compile Include="Assets\Skripts\neweee.cs" />
     <Compile Include="Assets\Skripts\test.cs" />
+    <Compile Include="Assets\_Completed-Assets\Scripts\CanvasCameraScript.cs" />
     <Compile Include="Assets\_Completed-Assets\Scripts\Done_BGScroller.cs" />
     <Compile Include="Assets\_Completed-Assets\Scripts\Done_DestroyByBoundary.cs" />
     <Compile Include="Assets\_Completed-Assets\Scripts\Done_DestroyByContact.cs" />
@@ -110,6 +111,7 @@
     <Compile Include="Assets\_Completed-Assets\Scripts\Done_Mover.cs" />
     <Compile Include="Assets\_Completed-Assets\Scripts\Done_RandomRotator.cs" />
     <Compile Include="Assets\_Completed-Assets\Scripts\Done_WeaponController.cs" />
+    <Compile Include="Assets\_Completed-Assets\Scripts\shootRange.cs" />
     <Compile Include="Assets\_Completed-Assets\Scripts\shots1337.cs" />
     <Compile Include="Assets\_Completed-Assets\Scripts\shots1337_2.cs" />
     <Compile Include="Assets\shooting.cs" />

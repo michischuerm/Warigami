@@ -15,6 +15,7 @@ public class RandomAmbientMusic : MonoBehaviour {
     // Use this for initialization
     void Start() {
         audioSource = gameObject.GetComponent<AudioSource>();
+        disableRandomAudioSuccessively();
         playRandomSoundOnStart();
 
     }
@@ -28,5 +29,13 @@ public class RandomAmbientMusic : MonoBehaviour {
     // Update is called once per frame
     void Update() {
 
+    }
+
+    private void disableRandomAudioSuccessively() {
+        do {
+            randomValueFromSoundArray = Random.Range(0, ambientSounds.Length);
+        }
+        while (previousRandomValue == randomValueFromSoundArray);
+        previousRandomValue = randomValueFromSoundArray;
     }
 }

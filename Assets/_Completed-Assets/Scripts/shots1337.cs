@@ -19,10 +19,10 @@ public class shots1337 : MonoBehaviour
 
 	private float nextFire;
 
-	private float shotPower = 0f;
+	public float shotPower = 0f;
 	private float upPower = 0f;
 
-	private float firstSector = 0.2f;
+	private float firstSector = 0.3f;
 	private float secondSector = 0.6f;
 
 	void Update() {
