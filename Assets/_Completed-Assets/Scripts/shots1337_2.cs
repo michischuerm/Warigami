@@ -26,9 +26,10 @@ public class shots1337_2 : MonoBehaviour {
 	void Update() {
 
 		if (Input.GetButton("Fire2")) {
-			//Debug.Log("Fire1 has been detected");
+			//Debug.Log("Fire2 has been detected");
 			shotPower += Time.deltaTime;
 		}
+  
 
 		if (Input.GetButtonUp("Fire2") && Time.time > nextFire) {
 
@@ -52,5 +53,5 @@ public class shots1337_2 : MonoBehaviour {
 			upPower = 0f;
 			//Destroy(crateClone, 5);
 		}
-	}
+    }
 }

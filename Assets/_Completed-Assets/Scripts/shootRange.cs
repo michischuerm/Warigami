@@ -31,15 +31,19 @@ public class shootRange : MonoBehaviour {
     // Update is called once per frame
     void Update() {
         //Pinguin
-        vShootRangePinguin.x = shotsPinguin.shotPower;
-        if (vShootRangePinguin.x <= 1) {
-            shootRangeBarPinguin.transform.localScale = vShootRangePinguin;
+        if (pinguin != null) {
+            vShootRangePinguin.x = shotsPinguin.shotPower;
+            if (vShootRangePinguin.x <= 1) {
+                shootRangeBarPinguin.transform.localScale = vShootRangePinguin;
+            }
         }
         //Snake
-        vShootRangeSnake.x = shotsSnake.shotPower;
-        if (vShootRangeSnake.x <= 1) {
-            shootRangeBarSnake.transform.localScale = vShootRangeSnake;
+        if (snake != null) {
+            vShootRangeSnake.x = shotsSnake.shotPower;
+            if (vShootRangeSnake.x <= 1) {
+                shootRangeBarSnake.transform.localScale = vShootRangeSnake;
+            }
         }
-
+        Debug.Log(vShootRangeSnake);
     }
 }
