@@ -111,6 +111,7 @@
     <Compile Include="Assets\_Completed-Assets\Scripts\Done_Mover.cs" />
     <Compile Include="Assets\_Completed-Assets\Scripts\Done_RandomRotator.cs" />
     <Compile Include="Assets\_Completed-Assets\Scripts\Done_WeaponController.cs" />
+    <Compile Include="Assets\_Completed-Assets\Scripts\quitGame.cs" />
     <Compile Include="Assets\_Completed-Assets\Scripts\shootRange.cs" />
     <Compile Include="Assets\_Completed-Assets\Scripts\shots1337.cs" />
     <Compile Include="Assets\_Completed-Assets\Scripts\shots1337_2.cs" />

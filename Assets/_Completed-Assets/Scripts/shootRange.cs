@@ -43,7 +43,6 @@ public class shootRange : MonoBehaviour {
             if (vShootRangeSnake.x <= 1) {
                 shootRangeBarSnake.transform.localScale = vShootRangeSnake;
             }
-        }
-        Debug.Log(vShootRangeSnake);
+        } 
     }
 }
