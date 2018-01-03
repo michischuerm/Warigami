@@ -27,17 +27,7 @@ public class UI : MonoBehaviour {
 		creditsMenu.enabled = false;
 		controlsMenu.enabled = false;
 	}
-
-	public void ExitPress ()
-	{
-		quitMenu.enabled = true;
-		creditsMenu.enabled = false;
-		startText.enabled = false;
-		exitText.enabled = false;
-		creditsText.enabled = false;
-		controlsText.enabled = false;
-		controlsMenu.enabled = false;
-	}
+		
 
 	public void CreditsPress ()
 	{
