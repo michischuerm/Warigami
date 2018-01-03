@@ -68,6 +68,11 @@ public class UI : MonoBehaviour {
 		Application.LoadLevel (1);
 	}
 
+	public void backUI()
+	{
+		Application.LoadLevel (0);
+	}
+
 	public void ExitGame ()
 	{
 		Application.Quit ();
