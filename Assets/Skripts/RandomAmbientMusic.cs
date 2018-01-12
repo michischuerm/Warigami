@@ -10,6 +10,7 @@ public class RandomAmbientMusic : MonoBehaviour {
     private AudioSource audioSource;
     private int randomValueFromSoundArray;
     private static int previousRandomValue = 0;
+    public float audioVolume = 0.2f; 
 
 
     // Use this for initialization
@@ -23,6 +24,7 @@ public class RandomAmbientMusic : MonoBehaviour {
 
     void playRandomSoundOnStart() {
         audioSource.clip = ambientSounds[randomValueFromSoundArray];
+        audioSource.volume = audioVolume;
         audioSource.Play();
     }
 
