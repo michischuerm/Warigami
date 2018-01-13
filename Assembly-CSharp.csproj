@@ -49,6 +49,7 @@
      <Compile Include="Assets\Prefab\Mover.cs" />
      <Compile Include="Assets\Round123Go\Score.cs" />
      <Compile Include="Assets\Round123Go\TextScript.cs" />
+     <Compile Include="Assets\Skripts\Ambiance.cs" />
      <Compile Include="Assets\Skripts\BoundaryDestroy.cs" />
      <Compile Include="Assets\Skripts\PickupFall.cs" />
      <Compile Include="Assets\Skripts\RandomAmbientMusic.cs" />
