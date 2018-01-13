@@ -25,6 +25,8 @@ public class shots1337 : MonoBehaviour
 	private float firstSector = 0.3f;
 	private float secondSector = 0.6f;
 
+    private GameObject crateClone;
+
 	void Update() {
 
 		if (Input.GetButton("Fire1")) {
@@ -35,12 +37,12 @@ public class shots1337 : MonoBehaviour
 		if (Input.GetButtonUp("Fire1") && Time.time > nextFire) {
 
 			nextFire = Time.time + fireRate;
-			GameObject crateClone = Instantiate(shot, shotSpawn.position, shotSpawn.rotation) as GameObject;
+			 crateClone = Instantiate(shot, shotSpawn.position, shotSpawn.rotation) as GameObject;
 
 			if (shotPower < firstSector) {
 				shotPower = 1f;
 				upPower = 1f;
-			} else if (shotPower >= firstSector && shotPower < secondSector) {
+			} else if (shotPower < secondSector) {
 				shotPower = 1.5f;
 				upPower = 4f;
 			} else if (shotPower >= secondSector) {
@@ -49,10 +51,11 @@ public class shots1337 : MonoBehaviour
 			}
 			crateClone.GetComponent<ShotScriptPlayer1>().speed *= shotPower;
 			crateClone.GetComponent<ShotScriptPlayer1>().upScale += upPower;
-			//Debug.Log("shotPower:" + shotPower);
-			shotPower = 0f;
+            crateClone.GetComponent<ShotScriptPlayer1>().shotPowerPinguin = shotPower;
+            //Debug.Log("shotPower:" + shotPower);
+            shotPower = 0f;
 			upPower = 0f;
-			//Destroy(crateClone, 5);
-		}
-	}
+            //Destroy(crateClone, 5);
+        }
+    }
 }

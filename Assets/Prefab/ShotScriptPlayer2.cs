@@ -6,9 +6,12 @@ public class ShotScriptPlayer2 : MonoBehaviour {
     public float lifetime;
     public float upScale;
 
+    public float shotPowerSnake = 0f;
 
 
-    public AudioClip[] shootSounds;
+    public AudioClip[] shootSoundsShort;
+    public AudioClip[] shootSoundsMiddle;
+    public AudioClip[] shootSoundsLong;
 
     [Range(0, 36f)]//Value below
     public float pitchRange = -36f;
@@ -22,6 +25,8 @@ public class ShotScriptPlayer2 : MonoBehaviour {
     private static int previousRandomValue = -1;
     private float pitchOctaveValue = 1.05946f;
 
+    private float firstSector = 1f;
+    private float secondSector = 1.5f;
 
 
     void Start() {
@@ -29,14 +34,20 @@ public class ShotScriptPlayer2 : MonoBehaviour {
         rb.velocity = transform.forward * speed + transform.up * upScale;
 
         audioSource = gameObject.GetComponent<AudioSource>();
-        if (shootSounds.Length > 0) {
+        if (shootSoundsShort.Length > 0) {
             disableRandomAudioSuccessively();
             playRandomSoundOnStart();
         } else {
             Debug.Log("No SoundClips in Array!");
         }
 
-
+        if (shotPowerSnake <= firstSector) {
+            Debug.Log("short");
+        } else if (shotPowerSnake <= secondSector) {
+            Debug.Log("middle");
+        } else if (shotPowerSnake > secondSector) {
+            Debug.Log("long");
+        }
 
     }
 
@@ -45,7 +56,7 @@ public class ShotScriptPlayer2 : MonoBehaviour {
     }
 
     void playRandomSoundOnStart() {
-        audioSource.clip = shootSounds[randomValueFromSoundArray];
+        audioSource.clip = shootSoundsShort[randomValueFromSoundArray];
 
         
 
@@ -55,18 +66,18 @@ public class ShotScriptPlayer2 : MonoBehaviour {
 
         audioSource.Play();
 
-        Debug.Log("you played: " + shootSounds[randomValueFromSoundArray]);
+        //Debug.Log("you played: " + shootSounds[randomValueFromSoundArray]);
 
 
     }
 
     private void disableRandomAudioSuccessively() {
         do {
-            randomValueFromSoundArray = Random.Range(0, shootSounds.Length);
+            randomValueFromSoundArray = Random.Range(0, shootSoundsShort.Length);
         }
         while (previousRandomValue == randomValueFromSoundArray);
 
-        if (shootSounds.Length == 1) {
+        if (shootSoundsShort.Length == 1) {
             previousRandomValue = -1;
         } else {
             previousRandomValue = randomValueFromSoundArray;
