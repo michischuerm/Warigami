@@ -46,8 +46,8 @@ public class shots1337_2 : MonoBehaviour {
 				shotPower = 2f;
 				upPower = 8f;
 			}
-			crateClone.GetComponent<Mover>().speed *= shotPower;
-			crateClone.GetComponent<Mover>().upScale += upPower;
+			crateClone.GetComponent<ShotScriptPlayer2>().speed *= shotPower;
+			crateClone.GetComponent<ShotScriptPlayer2>().upScale += upPower;
 			//Debug.Log("shotPower:" + shotPower);
 			shotPower = 0f;
 			upPower = 0f;

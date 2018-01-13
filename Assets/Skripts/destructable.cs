@@ -4,16 +4,20 @@ using UnityEngine;
 
 public class destructable : MonoBehaviour {
 
-	public GameObject destroyedVersion;
+    public GameObject destroyedVersion;
 
 
-	void OnCollisionEnter(Collision collision)
-	{
-		
-		if(collision.rigidbody.mass  > 3){ 
-			
-		Instantiate (destroyedVersion, transform.position, transform.rotation);
-		Destroy (gameObject);
-	}
-	}
+
+    void Start() {
+
+    }
+
+    void OnCollisionEnter(Collision collision) {
+
+        if (collision.rigidbody.mass > 3) {
+
+            Instantiate(destroyedVersion, transform.position, transform.rotation);
+            Destroy(gameObject);
+        }
+    }
 }
