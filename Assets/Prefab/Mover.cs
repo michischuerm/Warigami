@@ -56,7 +56,7 @@ public class Mover : MonoBehaviour {
 
 
 
-        Debug.Log("You played: " + shootSounds[randomValueFromSoundArray]);
+
     }
 
     private void disableRandomAudioSuccessively() {
