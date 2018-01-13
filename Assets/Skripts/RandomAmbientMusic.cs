@@ -9,7 +9,7 @@ public class RandomAmbientMusic : MonoBehaviour {
 
     private AudioSource audioSource;
     private int randomValueFromSoundArray;
-    private static int previousRandomValue = 0;
+    private static int previousRandomValue = -1;
     public float audioVolume = 0.2f; 
 
 
@@ -38,6 +38,10 @@ public class RandomAmbientMusic : MonoBehaviour {
             randomValueFromSoundArray = Random.Range(0, ambientSounds.Length);
         }
         while (previousRandomValue == randomValueFromSoundArray);
-        previousRandomValue = randomValueFromSoundArray;
+        if (ambientSounds.Length == 1) {
+            previousRandomValue = -1;
+        } else {
+            previousRandomValue = randomValueFromSoundArray;
+        }
     }
 }

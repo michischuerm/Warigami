@@ -19,7 +19,7 @@ public class Mover : MonoBehaviour {
 
     private AudioSource audioSource;
     private int randomValueFromSoundArray;
-    private static int previousRandomValue = 0;
+    private static int previousRandomValue = -1;
     private float pitchOctaveValue = 1.05946f;
 
 
@@ -29,8 +29,14 @@ public class Mover : MonoBehaviour {
         rb.velocity = transform.forward * speed + transform.up * upScale;
 
         audioSource = gameObject.GetComponent<AudioSource>();
-        disableRandomAudioSuccessively();
-        playRandomSoundOnStart();
+        if (shootSounds.Length > 0) {
+            disableRandomAudioSuccessively();
+            playRandomSoundOnStart();
+        } else {
+            Debug.Log("No SoundClips in Array!");
+        }
+
+
 
     }
 
@@ -45,7 +51,12 @@ public class Mover : MonoBehaviour {
         audioSource.pitch = Mathf.Pow(pitchOctaveValue, (1 + (Random.Range(-pitchRange, +pitchRange))));
 
         audioSource.volume = Random.Range(minVolumeRange, maxVolumeRange);
+
         audioSource.Play();
+
+
+
+        Debug.Log("You played: " + shootSounds[randomValueFromSoundArray]);
     }
 
     private void disableRandomAudioSuccessively() {
@@ -53,6 +64,16 @@ public class Mover : MonoBehaviour {
             randomValueFromSoundArray = Random.Range(0, shootSounds.Length);
         }
         while (previousRandomValue == randomValueFromSoundArray);
-        previousRandomValue = randomValueFromSoundArray;
+
+        if (shootSounds.Length == 1) {
+            previousRandomValue = -1;
+        } else {
+            previousRandomValue = randomValueFromSoundArray;
+        }
+
     }
+
+
+
+
 }
