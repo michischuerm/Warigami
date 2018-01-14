@@ -8,8 +8,7 @@ public class ShotScriptPlayer1 : MonoBehaviour {
 
     public float shotPowerPinguin = 0f;
 
-
-
+    private AudioClip[] shootSoundsCurrent;
     public AudioClip[] shootSoundsShort;
     public AudioClip[] shootSoundsMiddle;
     public AudioClip[] shootSoundsLong;
@@ -29,6 +28,8 @@ public class ShotScriptPlayer1 : MonoBehaviour {
     private float firstSector = 1f;
     private float secondSector = 1.5f;
 
+    
+
 
 
     void Start() {
@@ -36,21 +37,22 @@ public class ShotScriptPlayer1 : MonoBehaviour {
         rb.velocity = transform.forward * speed + transform.up * upScale;
 
         audioSource = gameObject.GetComponent<AudioSource>();
+
+        if (shotPowerPinguin <= firstSector) {
+            shootSoundsCurrent = shootSoundsShort;
+            //Debug.Log("short");
+        } else if (shotPowerPinguin <= secondSector) {
+            shootSoundsCurrent = shootSoundsMiddle;
+            //Debug.Log("middle");
+        } else if (shotPowerPinguin > secondSector) {
+            shootSoundsCurrent = shootSoundsLong;
+            //Debug.Log("long");
+        }
         if (shootSoundsShort.Length > 0) {
-            disableRandomAudioSuccessively();
-            playRandomSoundOnStart();
+            disableRandomAudioSuccessively(shootSoundsCurrent);
+            playRandomSoundOnStart(shootSoundsCurrent);
         } else {
             Debug.Log("No SoundClips in Array!");
-        }
-
-
-        
-        if (shotPowerPinguin <= firstSector) {
-            Debug.Log("short");
-        } else if(shotPowerPinguin <= secondSector) {
-            Debug.Log("middle");
-        } else if (shotPowerPinguin > secondSector) {
-            Debug.Log("long");
         }
     }
 
@@ -59,37 +61,25 @@ public class ShotScriptPlayer1 : MonoBehaviour {
         Destroy(gameObject, lifetime);
     }
 
-    void playRandomSoundOnStart() {
-        audioSource.clip = shootSoundsShort[randomValueFromSoundArray];
 
-        
-
-        audioSource.pitch = Mathf.Pow(pitchOctaveValue, (1 + (Random.Range(-pitchRange, +pitchRange))));
-
-        audioSource.volume = Random.Range(minVolumeRange, maxVolumeRange);
-
-        audioSource.Play();
-
-        //Debug.Log("you played: " + shootSoundsShort[randomValueFromSoundArray]);
-
-
-    }
-
-    private void disableRandomAudioSuccessively() {
+    private void disableRandomAudioSuccessively(AudioClip[] shootArrayDependingOnShotPower) {
         do {
-            randomValueFromSoundArray = Random.Range(0, shootSoundsShort.Length);
+            randomValueFromSoundArray = Random.Range(0, shootArrayDependingOnShotPower.Length);
         }
         while (previousRandomValue == randomValueFromSoundArray);
 
-        if (shootSoundsShort.Length == 1) {
+        if (shootArrayDependingOnShotPower.Length == 1) {
             previousRandomValue = -1;
         } else {
             previousRandomValue = randomValueFromSoundArray;
         }
-
     }
-
-
-
+    void playRandomSoundOnStart(AudioClip[] shootArrayDependingOnShotPower) {
+        audioSource.clip = shootArrayDependingOnShotPower[randomValueFromSoundArray];
+        audioSource.pitch = Mathf.Pow(pitchOctaveValue, (1 + (Random.Range(-pitchRange, +pitchRange))));
+        audioSource.volume = Random.Range(minVolumeRange, maxVolumeRange);
+        audioSource.Play();
+        //Debug.Log("you played: " + shootArrayDependingOnShotPower[randomValueFromSoundArray]);
+    }
 
 }
