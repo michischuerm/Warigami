@@ -28,10 +28,6 @@ public class ShotScriptPlayer1 : MonoBehaviour {
     private float firstSector = 1f;
     private float secondSector = 1.5f;
 
-    
-
-
-
     void Start() {
         Rigidbody rb = (Rigidbody)GetComponent(typeof(Rigidbody));
         rb.velocity = transform.forward * speed + transform.up * upScale;

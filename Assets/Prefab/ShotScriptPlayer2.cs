@@ -75,6 +75,6 @@ public class ShotScriptPlayer2 : MonoBehaviour {
         audioSource.pitch = Mathf.Pow(pitchOctaveValue, (1 + (Random.Range(-pitchRange, +pitchRange))));
         audioSource.volume = Random.Range(minVolumeRange, maxVolumeRange);
         audioSource.Play();
-        Debug.Log("you played: " + shootArrayDependingOnShotPower[randomValueFromSoundArray]);
+        //Debug.Log("you played: " + shootArrayDependingOnShotPower[randomValueFromSoundArray]);
     }
 }

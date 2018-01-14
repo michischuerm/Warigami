@@ -26,35 +26,36 @@ public class shots1337_2 : MonoBehaviour {
     private GameObject crateClone;
 
     void Update() {
-
+        if(shotSpawn !=null) { 
 		if (Input.GetButton("Fire2")) {
 			//Debug.Log("Fire2 has been detected");
 			shotPower += Time.deltaTime;
 		}
-  
 
-		if (Input.GetButtonUp("Fire2") && Time.time > nextFire) {
 
-			nextFire = Time.time + fireRate;
-			crateClone = Instantiate(shot, shotSpawn.position, shotSpawn.rotation) as GameObject;
+            if (Input.GetButtonUp("Fire2") && Time.time > nextFire) {
 
-			if (shotPower < firstSector) {
-				shotPower = 1f;
-				upPower = 1f;
-			} else if (shotPower < secondSector) {
-				shotPower = 1.5f;
-				upPower = 4f;
-			} else if (shotPower >= secondSector) {
-				shotPower = 2f;
-				upPower = 8f;
-			}
-			crateClone.GetComponent<ShotScriptPlayer2>().speed *= shotPower;
-			crateClone.GetComponent<ShotScriptPlayer2>().upScale += upPower;
-            crateClone.GetComponent<ShotScriptPlayer2>().shotPowerSnake = shotPower;
-            //Debug.Log("shotPower:" + shotPower);
-            shotPower = 0f;
-			upPower = 0f;
-			//Destroy(crateClone, 5);
+                nextFire = Time.time + fireRate;
+                crateClone = Instantiate(shot, shotSpawn.position, shotSpawn.rotation) as GameObject;
+
+                if (shotPower < firstSector) {
+                    shotPower = 1f;
+                    upPower = 1f;
+                } else if (shotPower < secondSector) {
+                    shotPower = 1.5f;
+                    upPower = 4f;
+                } else if (shotPower >= secondSector) {
+                    shotPower = 2f;
+                    upPower = 8f;
+                }
+                crateClone.GetComponent<ShotScriptPlayer2>().speed *= shotPower;
+                crateClone.GetComponent<ShotScriptPlayer2>().upScale += upPower;
+                crateClone.GetComponent<ShotScriptPlayer2>().shotPowerSnake = shotPower;
+                //Debug.Log("shotPower:" + shotPower);
+                shotPower = 0f;
+                upPower = 0f;
+                //Destroy(crateClone, 5);
+            }
 		}
     }
 }
